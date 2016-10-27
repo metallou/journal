@@ -1,0 +1,365 @@
+/* RESET CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+{
+    display: block;
+}
+body
+{
+    line-height: 1;
+}
+ol, ul
+{
+    list-style: none;
+}
+blockquote, q
+{
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after
+{
+    content: '';
+    content: none;
+}
+table
+{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Project CSS computer */
+body
+{
+    margin: 0;
+    background-color: #FFFFFF;
+}
+
+#header, #header-link, #header-category, #footer, #footer-info, #header-box, #footer-box, #deux
+{
+    display: block;
+    width: 100%;
+}
+
+#header-title
+{
+    display: inline-block;
+    width: 100%;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 95%;
+    color: #FFFFFF;
+}
+
+#header-link span
+{
+    width: 25%;
+}
+
+#header-category span
+{
+    width: 20%;
+}
+
+#footer-info span
+{
+    width: 16.6%;
+}
+
+#ext-link:hover
+{
+    background-color: #FF0000;
+}
+
+#account:hover
+{
+    background-color: #FFFF00;
+}
+
+#category:hover
+{
+    background-color: #0000FF;
+}
+
+#legal:hover, #home:hover
+{
+    background-color: #00FF00;
+}
+
+.bande span
+{
+    float: left;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#header-title
+{
+    position: relative;
+    height: 25vh;
+}
+
+#header-title a
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+#header img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 50%;
+}
+
+a span
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 7vw;
+    font-family: Arial;
+    text-shadow: 0.5vw 0 #000000;
+    color: #FFFFFF;
+}
+
+#header-box
+{
+    height: 35vh;
+}
+
+#footer-box
+{
+    height: 5vh;
+}
+
+#header, #footer
+{
+    position: fixed;
+    background-color: #FFFFFF;
+}
+
+#header, #header-box
+{
+    top: 0;
+}
+
+#footer, #footer-box
+{
+    bottom: 0;
+}
+
+.article
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    border: 5px solid #000000;
+}
+
+#title-info span
+{
+    font-size: 100%;
+}
+
+#title
+{
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+#title-category
+{
+    font-family: Verdana;
+    font-size: 2vw;
+}
+
+#author, #hour
+{
+    font-family: Courier;
+    font-size: 2vw;
+}
+
+#author
+{
+    font-style: italic;
+}
+
+#hour
+{
+    font-style: oblique;
+}
+
+#title-bar
+{
+    width: 100%;
+}
+
+#title
+{
+    display: inline-block;
+    width: 100%;
+    background-color: #FF0000;
+}
+
+#title-info
+{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    background-color: #FFFF00;
+}
+
+#image
+{
+    display: inline-block; 
+    width: 100%;
+}
+
+#texte
+{
+    display: inline-block;
+    width: 100%;
+    font-size: 2.5vw;
+    background-color:#0000FF;
+}
+
+#image img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+}
+
+#separator
+{
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+}
+
+@media screen and (min-width: 501px)
+{
+    #deux
+    {
+        width: 40%;
+        margin-bottom: 5vh;
+    }
+
+    #deux:nth-child(odd)
+    {
+        float: right;
+        margin-right: 4%;
+    }
+
+    #deux:nth-child(even)
+    {
+        float: left;
+        margin-left: 4%;
+    }
+
+    #home
+    {
+        display: none;
+    }
+}
+
+/* Project CSS mobile */
+@media screen and (max-width: 500px)
+{
+    #footer-info>*, #ext-link, #header-box, #separator
+    {
+        display: none;
+    }
+
+    #home
+    {
+        display: inline;
+    }
+
+    #header-link span
+    {
+        width: 50%;
+    }
+
+    #footer-info span
+    {
+        width: 100%;
+    }
+
+    #header-title
+    {
+        height: 10vh;
+    }
+
+    #header
+    {
+        display: inline-block;
+        position: static;
+        margin-bottom: 2vh;
+    }
+
+    #title, #texte
+    {
+        font-size: 100%;
+    }
+
+    #deux
+    {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 1vh;
+        padding-right: 1vh;
+        border: 5px solid #000000;
+    }
+}
